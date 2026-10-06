@@ -1,0 +1,116 @@
+{
+ "textures": {
+  "0": "dragonmodel:item/dragon_orange",
+  "particle": "dragonmodel:item/dragon_orange"
+ },
+ "elements": [
+  {
+   "from": [
+    -13.0,
+    6.5,
+    6.5
+   ],
+   "to": [
+    8.0,
+    9.5,
+    9.5
+   ],
+   "faces": {
+    "down": {
+     "uv": [
+      7.5,
+      5.5,
+      11.0,
+      6.0
+     ],
+     "texture": "#0",
+     "tintindex": 0
+    },
+    "up": {
+     "uv": [
+      11.0,
+      6.0,
+      14.5,
+      5.5
+     ],
+     "texture": "#0",
+     "tintindex": 0
+    },
+    "west": {
+     "uv": [
+      7.5,
+      6.5,
+      7.0,
+      6.0
+     ],
+     "texture": "#0",
+     "tintindex": 0
+    },
+    "north": {
+     "uv": [
+      11.0,
+      6.5,
+      7.5,
+      6.0
+     ],
+     "texture": "#0",
+     "tintindex": 0
+    },
+    "east": {
+     "uv": [
+      11.5,
+      6.5,
+      11.0,
+      6.0
+     ],
+     "texture": "#0",
+     "tintindex": 0
+    },
+    "south": {
+     "uv": [
+      15.0,
+      6.5,
+      11.5,
+      6.0
+     ],
+     "texture": "#0",
+     "tintindex": 0
+    }
+   }
+  },
+  {
+   "from": [
+    -13.0,
+    8.0,
+    8.75
+   ],
+   "to": [
+    8.0,
+    8.0,
+    29.75
+   ],
+   "faces": {
+    "down": {
+     "uv": [
+      0.0,
+      5.5,
+      3.5,
+      9.0
+     ],
+     "texture": "#0",
+     "tintindex": 0
+    },
+    "up": {
+     "uv": [
+      3.5,
+      9.0,
+      7.0,
+      5.5
+     ],
+     "texture": "#0",
+     "tintindex": 0
+    }
+   }
+  }
+ ]
+}

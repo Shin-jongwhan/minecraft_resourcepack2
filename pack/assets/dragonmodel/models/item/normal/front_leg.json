@@ -1,0 +1,82 @@
+{
+ "textures": {
+  "0": "dragonmodel:item/dragon_normal",
+  "particle": "dragonmodel:item/dragon_normal"
+ },
+ "elements": [
+  {
+   "from": [
+    6.5,
+    6.5,
+    6.5
+   ],
+   "to": [
+    9.5,
+    15.5,
+    9.5
+   ],
+   "faces": {
+    "down": {
+     "uv": [
+      7.5,
+      6.5,
+      8.0,
+      7.0
+     ],
+     "texture": "#0",
+     "tintindex": 0
+    },
+    "up": {
+     "uv": [
+      8.0,
+      7.0,
+      8.5,
+      6.5
+     ],
+     "texture": "#0",
+     "tintindex": 0
+    },
+    "west": {
+     "uv": [
+      7.5,
+      8.5,
+      7.0,
+      7.0
+     ],
+     "texture": "#0",
+     "tintindex": 0
+    },
+    "north": {
+     "uv": [
+      8.0,
+      8.5,
+      7.5,
+      7.0
+     ],
+     "texture": "#0",
+     "tintindex": 0
+    },
+    "east": {
+     "uv": [
+      8.5,
+      8.5,
+      8.0,
+      7.0
+     ],
+     "texture": "#0",
+     "tintindex": 0
+    },
+    "south": {
+     "uv": [
+      9.0,
+      8.5,
+      8.5,
+      7.0
+     ],
+     "texture": "#0",
+     "tintindex": 0
+    }
+   }
+  }
+ ]
+}

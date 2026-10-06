@@ -1,0 +1,82 @@
+{
+ "textures": {
+  "0": "dragonmodel:item/dragon_red",
+  "particle": "dragonmodel:item/dragon_red"
+ },
+ "elements": [
+  {
+   "from": [
+    4.625,
+    8.0,
+    0.5
+   ],
+   "to": [
+    11.375,
+    10.25,
+    9.5
+   ],
+   "faces": {
+    "down": {
+     "uv": [
+      8.5,
+      0.0,
+      9.625,
+      1.5
+     ],
+     "texture": "#0",
+     "tintindex": 0
+    },
+    "up": {
+     "uv": [
+      9.625,
+      1.5,
+      10.75,
+      0.0
+     ],
+     "texture": "#0",
+     "tintindex": 0
+    },
+    "west": {
+     "uv": [
+      8.5,
+      1.875,
+      7.0,
+      1.5
+     ],
+     "texture": "#0",
+     "tintindex": 0
+    },
+    "north": {
+     "uv": [
+      9.625,
+      1.875,
+      8.5,
+      1.5
+     ],
+     "texture": "#0",
+     "tintindex": 0
+    },
+    "east": {
+     "uv": [
+      11.125,
+      1.875,
+      9.625,
+      1.5
+     ],
+     "texture": "#0",
+     "tintindex": 0
+    },
+    "south": {
+     "uv": [
+      12.25,
+      1.875,
+      11.125,
+      1.5
+     ],
+     "texture": "#0",
+     "tintindex": 0
+    }
+   }
+  }
+ ]
+}
