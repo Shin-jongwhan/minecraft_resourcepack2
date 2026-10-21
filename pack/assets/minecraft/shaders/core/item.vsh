@@ -24,11 +24,11 @@ out vec4 overlayColor;
 
 out vec2 texCoord0;
 
+out float dormSelfMark;
+
 void main() {
     gl_Position = ProjMat * ModelViewMat * vec4(Position, 1.0);
-    if (all(lessThan(abs(Color.rgb * 255.0 - vec3(253.0, 254.0, 253.0)), vec3(0.5))) && length(Position) < 2.6) {
-        gl_Position = vec4(2.0, 2.0, 2.0, 1.0);
-    }
+    dormSelfMark = all(lessThan(abs(Color.rgb * 255.0 - vec3(253.0, 254.0, 253.0)), vec3(0.5))) ? 1.0 : 0.0;
 
     sphericalVertexDistance = fog_spherical_distance(Position);
     cylindricalVertexDistance = fog_cylindrical_distance(Position);
