@@ -1,0 +1,32 @@
+body {
+  margin: 0;
+  padding: 32px 16px;
+  font-family: system-ui, -apple-system, "Segoe UI", "Malgun Gothic", sans-serif;
+  line-height: 1.7;
+  color: #222;
+  background: #fafafa;
+}
+
+main {
+  max-width: 720px;
+  margin: 0 auto;
+}
+
+h1 {
+  font-size: 1.6rem;
+}
+
+h2 {
+  font-size: 1.15rem;
+  margin-top: 2rem;
+}
+
+a {
+  color: #1a5fb4;
+}
+
+footer {
+  margin-top: 3rem;
+  font-size: 0.85rem;
+  color: #777;
+}
