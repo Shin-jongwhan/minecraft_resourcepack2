@@ -1,0 +1,1 @@
+{"textures":{"map":"quizmap:item/country/kir","particle":"quizmap:item/country/kir"},"elements":[{"from":[5.4375,6.875,8],"to":[7.1875,7.625,8],"shade":false,"faces":{"south":{"uv":[0,0,16,16],"texture":"#map"},"north":{"uv":[0,0,16,16],"texture":"#map"}}}]}

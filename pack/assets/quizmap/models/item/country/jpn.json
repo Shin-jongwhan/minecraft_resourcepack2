@@ -1,0 +1,1 @@
+{"textures":{"map":"quizmap:item/country/jpn","particle":"quizmap:item/country/jpn"},"elements":[{"from":[8.125,8.5,8],"to":[9.1875,9.625,8],"shade":false,"faces":{"south":{"uv":[0,0,16,16],"texture":"#map"},"north":{"uv":[0,0,16,16],"texture":"#map"}}}]}

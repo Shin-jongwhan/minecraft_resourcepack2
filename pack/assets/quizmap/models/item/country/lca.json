@@ -1,0 +1,1 @@
+{"textures":{"map":"quizmap:item/country/lca","particle":"quizmap:item/country/lca"},"elements":[{"from":[1.4375,8.0,8],"to":[1.5,8.0625,8],"shade":false,"faces":{"south":{"uv":[0,0,16,16],"texture":"#map"},"north":{"uv":[0,0,16,16],"texture":"#map"}}}]}

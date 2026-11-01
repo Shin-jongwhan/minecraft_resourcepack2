@@ -1,0 +1,1 @@
+{"textures":{"map":"quizmap:item/country/bwa","particle":"quizmap:item/country/bwa"},"elements":[{"from":[13.25,6.1875,8],"to":[13.75,6.6875,8],"shade":false,"faces":{"south":{"uv":[0,0,16,16],"texture":"#map"},"north":{"uv":[0,0,16,16],"texture":"#map"}}}]}

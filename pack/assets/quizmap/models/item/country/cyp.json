@@ -1,0 +1,1 @@
+{"textures":{"map":"quizmap:item/country/cyp","particle":"quizmap:item/country/cyp"},"elements":[{"from":[13.0625,9.0,8],"to":[13.1875,9.0625,8],"shade":false,"faces":{"south":{"uv":[0,0,16,16],"texture":"#map"},"north":{"uv":[0,0,16,16],"texture":"#map"}}}]}

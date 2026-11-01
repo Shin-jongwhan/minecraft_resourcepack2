@@ -1,0 +1,1 @@
+{"textures":{"map":"quizmap:item/continent/asia","particle":"quizmap:item/continent/asia"},"elements":[{"from":[6.625,6.9375,8],"to":[13.5,12.3125,8],"shade":false,"faces":{"south":{"uv":[0,0,16,16],"texture":"#map"},"north":{"uv":[0,0,16,16],"texture":"#map"}}}]}

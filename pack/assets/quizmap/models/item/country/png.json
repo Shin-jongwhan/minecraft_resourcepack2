@@ -1,0 +1,1 @@
+{"textures":{"map":"quizmap:item/country/png","particle":"quizmap:item/country/png"},"elements":[{"from":[7.6875,6.875,8],"to":[8.4375,7.375,8],"shade":false,"faces":{"south":{"uv":[0,0,16,16],"texture":"#map"},"north":{"uv":[0,0,16,16],"texture":"#map"}}}]}

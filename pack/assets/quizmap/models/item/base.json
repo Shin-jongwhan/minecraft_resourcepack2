@@ -1,0 +1,1 @@
+{"textures":{"map":"quizmap:item/base","particle":"quizmap:item/base"},"elements":[{"from":[0.0,3.4375,8],"to":[16.0,12.5625,8],"shade":false,"faces":{"south":{"uv":[0,0,16,16],"texture":"#map"},"north":{"uv":[0,0,16,16],"texture":"#map"}}}]}

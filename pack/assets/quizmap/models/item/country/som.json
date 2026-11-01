@@ -1,0 +1,1 @@
+{"textures":{"map":"quizmap:item/country/som","particle":"quizmap:item/country/som"},"elements":[{"from":[12.3125,7.3125,8],"to":[12.8125,8.0,8],"shade":false,"faces":{"south":{"uv":[0,0,16,16],"texture":"#map"},"north":{"uv":[0,0,16,16],"texture":"#map"}}}]}
