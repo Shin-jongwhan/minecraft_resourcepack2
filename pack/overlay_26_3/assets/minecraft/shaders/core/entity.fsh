@@ -69,10 +69,10 @@ vec4 calculateFinalColor(vec4 color) {
     return apply_fog(color, sphericalVertexDistance, cylindricalVertexDistance, FogEnvironmentalStart, FogEnvironmentalEnd, FogRenderDistanceStart, FogRenderDistanceEnd, fogColor);
 }
 
-layout(location = 15) in float dormSelfMark;
+layout(location = 15) in vec2 dormSelf;
 
 void main() {
-    if (dormSelfMark > 0.5 && sphericalVertexDistance < 2.6) {
+    if (dormSelf.x > 0.5 && dormSelf.y < 2.6) {
         discard;
     }
     vec4 color = texture(Sampler0, texCoord0);

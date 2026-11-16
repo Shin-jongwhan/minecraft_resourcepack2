@@ -35,11 +35,11 @@ layout(location = 5) out vec2 texCoord0;
 layout(location = 6) out vec2 texCoordGlint;
 #endif
 
-layout(location = 15) out float dormSelfMark;
+layout(location = 15) out vec2 dormSelf;
 
 void main() {
     gl_Position = ProjMat * ModelViewMat * vec4(Position, 1.0);
-    dormSelfMark = all(lessThan(abs(Color.rgb * 255.0 - vec3(253.0, 254.0, 253.0)), vec3(0.5))) ? 1.0 : 0.0;
+    dormSelf = vec2(all(lessThan(abs(Color.rgb * 255.0 - vec3(253.0, 254.0, 253.0)), vec3(0.5))) ? 1.0 : 0.0, length(Position));
 
     #ifndef OIT_ALPHA_ONLY
     sphericalVertexDistance = fog_spherical_distance(Position);
